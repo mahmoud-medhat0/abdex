@@ -23,14 +23,18 @@ class centers extends Controller
     {
         $validate = [
             'name'=>['required','max:255'],
-            'agentid' => ['required','max:255',new validagent],
+            'delegate_commission'=>['required','integer'],
+            'page_commission'=>['required','integer'],
+            'company_commission'=>['required','integer'],
             'governorate' => ['required','exists:governorates,id'],
         ];
         $request->validate($validate);
         DB::table('centers')->insert([
             'center_name'=>$request['name'],
+            'delegate_commission'=>$request['delegate_commission'],
+            'page_commission'=>$request['page_commission'],
+            'company_commission'=>$request['company_commission'],
             'governate_id'=>$request['governorate'],
-            'id_agent'=>$request['agentid']
         ]);
         $center = DB::table('centers')->latest('created_at')->get();
         DB::table('centers_history')->insert([
@@ -58,15 +62,19 @@ class centers extends Controller
     {
         $validate = [
             'name'=>['required','max:255'],
-            'agentid' => ['required','max:255',new validagent],
+            'delegate_commission'=>['required','integer'],
+            'page_commission'=>['required','integer'],
+            'company_commission'=>['required','integer'],
             'governorate' => ['required','exists:governorates,id'],
         ];
         $request->validate($validate);
         $center = DB::table('centers')->where('id','=',$request['id']);
         $center->update([
             'center_name'=>$request['name'],
+            'delegate_commission'=>$request['delegate_commission'],
+            'page_commission'=>$request['page_commission'],
+            'company_commission'=>$request['company_commission'],
             'governate_id'=>$request['governorate'],
-            'id_agent'=>$request['agentid']
         ]);
         $centernew = DB::table('centers')->where('id','=',$request['id'])->get();
         DB::table('centers_history')->insert([
