@@ -40,7 +40,7 @@
                                 <tr>
                                     <td>{{ $company['id'] }}</td>
                                     <td>{{ $company['name'] }}</td>
-                                    <td>{{ $company->type=='page'?__("Page"):__("Office") }}</td>
+                                    <td>{{ $company['type']=='page'?__("Page"):__("Office") }}</td>
                                     <td>
                                         @foreach ($company['num']['0'] as $companynum )
                                         @if(app()->getLocale()=="en")
