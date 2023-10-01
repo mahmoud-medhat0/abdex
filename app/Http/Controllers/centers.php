@@ -48,7 +48,7 @@ class centers extends Controller
     public function read(Request $request)
     {
         session()->flash('active','centers');
-        $centers = DB::table('centers')->selectRaw('centers.id')->selectRaw('centers.center_name')->join('governorates','centers.governate_id','=','governorates.id')->selectRaw('governorate_name_ar')->selectRaw('governorate_name_en')->join('users','users.id','=','centers.id_agent')->selectRaw('name')->get();
+        $centers = DB::table('centers')->selectRaw('centers.id')->selectRaw('centers.center_name')->join('governorates','centers.governate_id','=','governorates.id')->selectRaw('governorate_name_ar')->selectRaw('governorate_name_en')->selectRaw('name')->get();
         return view('centers.all',compact('centers'));
     }
     public function edit($id)

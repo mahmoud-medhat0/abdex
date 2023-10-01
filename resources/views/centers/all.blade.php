@@ -31,7 +31,6 @@
                                     <th>{{ __("id") }}</th>
                                     <th>{{ __("name") }}</th>
                                     <th>{{ __("governate") }}</th>
-                                    <th>{{ __("agent_name") }}</th>
                                     <th>{{ __("action") }}</th>
                                 </tr>
                             </thead>
@@ -72,7 +71,6 @@
                                     <th>{{ __("id") }}</th>
                                     <th>{{ __("name") }}</th>
                                     <th>{{ __("governate") }}</th>
-                                    <th>{{ __("agent_name") }}</th>
                                     <th>{{ __("action") }}</th>
                                 </tr>
                             </tfoot>
