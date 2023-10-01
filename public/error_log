@@ -1,0 +1,354 @@
+[25-May-2023 11:09:09 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:09:09 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:09:09 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:09:09 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:09:09 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:09:13 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:09:13 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:09:13 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:09:13 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:09:13 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:09:23 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:09:23 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:09:23 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:09:23 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:09:23 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:10:11 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:10:11 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:10:11 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:10:11 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:10:11 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:10:13 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:10:13 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:10:13 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:10:13 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:10:13 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:13:17 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:13:17 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:13:17 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:13:22 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:13:22 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:13:22 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in Unknown on line 0
+[25-May-2023 11:15:16 America/Boise] PHP Warning:  Unknown: open_basedir restriction in effect. File(/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php) is not within the allowed path(s): (/www/wwwroot/marexpres.com/mar/:/tmp/) in Unknown on line 0
+[25-May-2023 11:15:16 America/Boise] PHP Warning:  Unknown: Failed to open stream: Operation not permitted in Unknown on line 0
+[25-May-2023 11:15:16 America/Boise] PHP Fatal error:  Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in Unknown on line 0
+[09-Jun-2023 18:59:58 Africa/Cairo] PHP Fatal error:  Cannot use Picqer\Barcode\BarcodeGeneratorPNG as BarcodeGeneratorPNG because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/4b8ff82c14a03d853dba19ee0baded77770f9c8b.php on line 3
+[05-Jul-2023 18:42:16 Africa/Cairo] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 81
+[05-Jul-2023 18:42:28 Africa/Cairo] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 81
+[05-Jul-2023 18:42:44 Africa/Cairo] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 81
+[05-Jul-2023 18:42:44 Africa/Cairo] PHP Fatal error:  Cannot use empty array elements in arrays in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 81
+[05-Jul-2023 20:47:59 Africa/Cairo] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Auth as Auth because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 17
+[05-Jul-2023 21:01:06 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:01:16 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:01:26 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:02:16 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:02:53 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:03:12 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:03:31 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[05-Jul-2023 21:04:13 Africa/Cairo] PHP Fatal error:  Constant expression contains invalid operations in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/iscompanycontroller.php on line 21
+[06-Jul-2023 15:45:09 Africa/Cairo] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 894
+[06-Jul-2023 15:45:16 Africa/Cairo] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/ca7b5bae6baa515e0ddbde85382c5331c8c74db5.php on line 532
+[06-Jul-2023 15:46:08 Africa/Cairo] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/ca7b5bae6baa515e0ddbde85382c5331c8c74db5.php on line 532
+[09-Jul-2023 04:12:25 Africa/Cairo] PHP Fatal error:  Cannot use Maatwebsite\Excel\Facades\Excel as Excel because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/accountant.php on line 21
+[09-Jul-2023 04:12:25 Africa/Cairo] PHP Fatal error:  Cannot use Maatwebsite\Excel\Facades\Excel as Excel because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/accountant.php on line 21
+[09-Jul-2023 04:12:25 Africa/Cairo] PHP Fatal error:  Cannot use Maatwebsite\Excel\Facades\Excel as Excel because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/accountant.php on line 21
+[09-Jul-2023 04:12:25 Africa/Cairo] PHP Fatal error:  Cannot use Maatwebsite\Excel\Facades\Excel as Excel because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/accountant.php on line 21
+[09-Jul-2023 04:12:25 Africa/Cairo] PHP Fatal error:  Cannot use Maatwebsite\Excel\Facades\Excel as Excel because the name is already in use in /home3/yhpmxhmy/public_html/spearzenonsoftware/app/Http/Controllers/accountant.php on line 21
+[02-Aug-2023 23:54:33 Africa/Cairo] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/yhpmxhmy/public_html/spearzenonsoftware/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 730
+[02-Aug-2023 23:59:27 Africa/Cairo] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/yhpmxhmy/public_html/spearzenonsoftware/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 414
+[08-Aug-2023 16:42:01 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:03 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:06 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:08 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:11 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:18 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:28 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:33 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:38 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:43 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:48 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:53 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:42:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:00 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:05 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:21 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:25 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:26 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:31 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:36 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:41 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:46 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:43:47 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:44:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:44:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:44:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:44:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:45:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:45:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:45:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:45:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:45:58 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:04 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:10 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:12 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:13 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:18 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:23 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:28 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:46:31 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:47:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:47:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:47:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:47:35 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:47:37 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:48:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:48:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:48:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:49:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:49:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:49:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:49:35 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:50:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:50:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[08-Aug-2023 16:50:16 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home3/yhpmxhmy/public_html/spearzenonsoftware/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php80/root/usr/share/pear') in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home3/yhpmxhmy/public_html/spearzenonsoftware/public/index.php on line 34
+[14-Aug-2023 22:48:51 Africa/Cairo] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home3/yhpmxhmy/public_html/spearzenonsoftware/vendor/laravel/framework/src/Illuminate/Collections/helpers.php on line 174
+[04-Sep-2023 17:10:27 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 194023424 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:27:31 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:28:59 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:29:56 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:31:33 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:35:47 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:36:46 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 14:37:23 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173387776 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[10-Sep-2023 15:53:05 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173465600 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[12-Sep-2023 02:19:49 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173932544 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
+[12-Sep-2023 02:20:04 Africa/Cairo] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 173932544 bytes) in /home3/yhpmxhmy/public_html/spearzenonsoftware/storage/framework/views/d2aaa68bb931668541cea702c038e05ab307ec78.php on line 813
