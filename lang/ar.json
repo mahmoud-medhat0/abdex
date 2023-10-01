@@ -254,5 +254,8 @@
     "orders_deleted":"سجل حذف الطرود",
     "delegate_delivered":"وقت استلام المندوب",
     "companies_orders":"شركات الطرود",
-    "To Archieve":"إلي الارشيف"
+    "To Archieve":"إلي الارشيف",
+    "Company Type":"نوع الشركة",
+    "Page":"صفحة",
+    "Office":"مكتب"
 }

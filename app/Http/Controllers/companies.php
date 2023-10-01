@@ -36,11 +36,13 @@ class companies extends Controller
     {
         $validate = [
             'name' => ['required','max:255'],
+            'type'=>['required','in:office,page'],
             'special_intructions'=>['nullable']
         ];
         $request->validate($validate);
         DB::table('companies')->insert([
             'name' => $request['name'],
+            'type' =>$request['type'],
             'special_intructions'=>$request['special_intructions']? $request['special_intructions']:'none'
         ]);
         DB::table('companies_history')->insert([
@@ -92,6 +94,7 @@ class companies extends Controller
         $companyold= $company->get();
         $company->update([
             'name' => $data['name'],
+            'type' =>$request['type'],
             'special_intructions'=>$data['special_intructions']
         ]);
         DB::table('companies_history')->insert([

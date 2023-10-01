@@ -30,6 +30,7 @@
                                 <tr>
                                     <th>{{ __("id") }}</th>
                                     <th>{{ __("name") }}</th>
+                                    <th>{{ __("Company Type") }}</th>
                                     <th>{{ __("companies_numbers") }}</th>
                                     <th>{{ __("action") }}</th>
                                 </tr>
@@ -39,6 +40,7 @@
                                 <tr>
                                     <td>{{ $company['id'] }}</td>
                                     <td>{{ $company['name'] }}</td>
+                                    <td>{{ $company->type=='page'?__("Page"):__("Office") }}</td>
                                     <td>
                                         @foreach ($company['num']['0'] as $companynum )
                                         @if(app()->getLocale()=="en")
