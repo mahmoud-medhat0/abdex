@@ -46,7 +46,6 @@
                                         {{ $center->governorate_name_ar }}
                                         @endif
                                     </td>
-                                    <td>{{ $center->name }}</td>
                                     <td class="project-actions text-right">
                                         <a class="btn btn-info btn-sm" href="{{ route('center_edit',$center->id) }}">
                                             <i class="fas fa-pencil-alt">
