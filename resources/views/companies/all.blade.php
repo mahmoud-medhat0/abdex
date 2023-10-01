@@ -76,6 +76,7 @@
                                 <tr>
                                     <th>{{ __("id") }}</th>
                                     <th>{{ __("name") }}</th>
+                                    <th>{{ __("Company Type") }}</th>
                                     <th>{{ __("companies_numbers") }}</th>
                                     <th>{{ __("action") }}</th>
                                 </tr>
