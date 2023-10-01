@@ -371,7 +371,7 @@
                                     <p>{{ __("centers_add") }}</p>
                                 </a>
                             </li>
-                            <li class="nav-item">
+                            {{--  <li class="nav-item">
                                 <a href="{{ route('addsubcenter') }}" class="nav-link
                                     @if (session()->get('active') == 'subcenter_add') {{ 'active' }} @endif
                                     ">
@@ -394,7 +394,7 @@
                                     <i class="far fa-circle nav-icon"></i>
                                     <p>{{ __("subcenters_list") }}</p>
                                 </a>
-                            </li>
+                            </li>  --}}
                         </ul>
                     </li>
                     <li class="nav-item">

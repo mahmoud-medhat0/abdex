@@ -27,6 +27,40 @@
                         @enderror
                     </div>
                 </div>
+
+                <div class="col-md-6" bis_skin_checked="1">
+                    <div class="form-group" bis_skin_checked="1">
+                        <label for="exampleInputEmail1">{{ __("delegate_commission") }}</label>
+                        <input type="number" name="delegate_commission" value="{{ old('delegate_commission') }}" class="form-control"
+                            placeholder="{{ __("delegate_commission") }}">
+                        @error('delegate_commission')
+                        <div class="text-danger font-weight-bold">*{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="col-md-6" bis_skin_checked="1">
+                    <div class="form-group" bis_skin_checked="1">
+                        <label for="exampleInputEmail1">{{ __("page_commission") }}</label>
+                        <input type="number" name="page_commission" value="{{ old('page_commission') }}" class="form-control"
+                            placeholder="{{ __("page_commission") }}">
+                        @error('page_commission')
+                        <div class="text-danger font-weight-bold">*{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+
+                <div class="col-md-6" bis_skin_checked="1">
+                    <div class="form-group" bis_skin_checked="1">
+                        <label for="exampleInputEmail1">{{ __("company_commission") }}</label>
+                        <input type="number" name="company_commission" value="{{ old('company_commission') }}" class="form-control"
+                            placeholder="{{ __("company_commission") }}">
+                        @error('company_commission')
+                        <div class="text-danger font-weight-bold">*{{ $message }}</div>
+                        @enderror
+                    </div>
+                </div>
+
                 <div class="form-group col-md-6" bis_skin_checked="1">
                     <label>{{ __("governate") }}</label>
                     <select name="governorate" class="form-control select2bs4 select2-hidden-accessible"
