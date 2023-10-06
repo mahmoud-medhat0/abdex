@@ -88,7 +88,7 @@ class centers extends Controller
     public function delete($id)
     {
         DB::table('centers')->select('*')->where('id','=',$id)->delete();
-        $centers = DB::table('centers')->selectRaw('centers.id')->selectRaw('centers.center_name')->join('governorates','centers.governate_id','=','governorates.id')->selectRaw('governorate_name_ar')->selectRaw('governorate_name_en')->join('users','users.id','=','centers.id_agent')->selectRaw('name')->get();
+        $centers = DB::table('centers')->selectRaw('centers.id')->selectRaw('centers.center_name')->join('governorates','centers.governate_id','=','governorates.id')->selectRaw('governorate_name_ar')->selectRaw('governorate_name_en')->get();
         return redirect()->back()->with('success','center deleted successfully')->with('centers',$centers);
     }
 }
