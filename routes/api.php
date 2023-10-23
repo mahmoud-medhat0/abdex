@@ -43,4 +43,5 @@ Route::controller(orders::class)->group(function(){
     Route::post('orders/money','money');
     Route::post('orders/delete','delete');
     Route::post('orders/update','update');
+    Route::get('centers/all','centers');
 });

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\api;
 use Carbon\Carbon;
 use Pusher\Pusher;
 use App\Models\User;
+use App\Models\Center;
 use App\Rules\validuid;
 use App\Rules\validcause;
 use App\Rules\validcompany;
@@ -527,5 +528,9 @@ class orders extends Controller
         return response()->json([
             'success'=>'تم ارسال الاشعار بنجاح'
         ]);
+    }
+    public function centers()
+    {
+        return response()->json(['centers'=>Center::all()], 200, [], JSON_UNESCAPED_UNICODE);
     }
 }
