@@ -119,6 +119,36 @@ class orders extends Controller
                 });
             return response()->json($orders, 200, [], JSON_UNESCAPED_UNICODE);
             break;
+        case '9':
+            $userid = Auth::user()->id;
+            $orders = DB::table('orders')->where('on_archieve', '0')->where('delegate_id', '=', $userid)
+                ->whereNot('order_locate','3')->whereNot('order_locate','4')
+                ->select('*')->selectRaw('orders.id AS orderid')
+                ->join('order_state', 'order_state.id', '=', 'orders.status_id')->selectRaw('order_state.state AS statename')
+                ->join('causes_return', 'causes_return.id', '=', 'orders.cause_id')->selectRaw('causes_return.cause AS causename')
+                ->join('companies', 'companies.id', '=', 'orders.id_company')->selectRaw('companies.name AS company_name')->get()
+                ->map(function ($item) {
+                    switch ($item->order_locate) {
+                        case '0':
+                            $item->locate_name = 'لم يتم التحديد بعد';
+                            break;
+                        case '1':
+                            $item->locate_name = 'بمقر الشركة';
+                            break;
+                        case'2':
+                            $item->locate_name = 'خرج مع المندوب';
+                            break;
+                        case'3':
+                            $item->locate_name = 'تم الرد للراسل';
+                            break;
+                        case'4':
+                            $item->locate_name = 'مطلوب من المندوب';
+                            break;
+                        }
+                    return $item;
+                });
+            return response()->json($orders, 200, [], JSON_UNESCAPED_UNICODE);
+            break;
         default:
             return response()->json(['error'=>'غير مسموح لك بالدخول'], 422,[], JSON_UNESCAPED_UNICODE);
             break;
@@ -292,9 +322,9 @@ class orders extends Controller
         $userid = DB::table('uid')->select('user_id')->where('uid', '=', $request->uid)->get()[0]->user_id;
         $rank = DB::table('users')->select('id', 'rank_id')->where('id', '=', $userid)->get()[0]->rank_id;
         switch ($rank) {
-            case '8':
+            case '9':
                 $orders = DB::table('orders')->whereNot('order_locate','3')->whereNot('order_locate','4')
-                    ->where('on_archieve', '0')->select('*')->where('agent_id', '=', $userid)->where('status_id', '=', '1')
+                    ->where('on_archieve', '0')->select('*')->where('status_id', '=', '1')
                     ->orWhere('status_id', '=', '2')->where('delegate_id', '=', $userid)->where('on_archieve', '0')
                     ->orWhere('status_id', '=', '3')->where('delegate_id', '=', $userid)->where('on_archieve', '0')
                     ->orWhere('status_id', '=', '4')->where('delegate_id', '=', $userid)->where('on_archieve', '0')

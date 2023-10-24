@@ -49,7 +49,7 @@ class orders extends Controller
         //     return $user->created_at->format('Y-m-d');
         // })
         // ->toJson();
-        $query = order::select('*');
+        $query = order::query();
 
         // dd($request->all());
         if ($request->has('search.value')) {

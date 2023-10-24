@@ -152,7 +152,7 @@ class history extends Controller
     }
     public function history_ajax(Request $request)
     {
-        $query = OrderHistory::select('*')->where('action','edit');
+        $query = OrderHistory::query()->where('action','edit');
         if ($request->has('search.value')) {
             $searchValue = $request->input('search.value');
             $query->where(function ($subquery) use ($searchValue) {
@@ -271,7 +271,7 @@ class history extends Controller
     }
     public function archieve_ajax(Request $request)
     {
-        $query = order::where('delegate_supply','1')->where('company_supply','1')->orWhere('on_archieve','1')->select('*');
+        $query = order::query()->where('delegate_supply','1')->where('company_supply','1')->orWhere('on_archieve','1')->select('*');
         if ($request->has('id')) {
             $query->where('id', 'like', '%' . $request->input('id') . '%');
         }
