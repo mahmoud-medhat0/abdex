@@ -12,6 +12,6 @@ class Center extends Model
     protected $with=['governate'];
     public function governate()
     {
-        return $this->hasOne(Governate::class);
+        return $this->hasOne(Governate::class,'id','governate_id');
     }
 }
