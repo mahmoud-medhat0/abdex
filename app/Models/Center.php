@@ -9,7 +9,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 class Center extends Model
 {
     use HasFactory;
-    protected $table='governorates';
     protected $with=['governate'];
     public function governate()
     {

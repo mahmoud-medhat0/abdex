@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class Governate extends Model
 {
+    protected $table='governorates';
     use HasFactory;
 }
