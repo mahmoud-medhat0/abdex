@@ -5,6 +5,7 @@ namespace App\Http\Controllers\api;
 use Carbon\Carbon;
 use Pusher\Pusher;
 use App\Models\User;
+use App\Models\order;
 use App\Models\Center;
 use App\Rules\validuid;
 use App\Rules\validcause;
@@ -562,5 +563,18 @@ class orders extends Controller
     public function centers()
     {
         return response()->json(['centers'=>Center::all()], 200, [], JSON_UNESCAPED_UNICODE);
+    }
+    public function searchpolice(Request $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'uid' =>['required',new validuid(),
+            'search' =>['required']
+            ]
+        ]);
+        if ($validator->fails()) {
+            return response()->json(['success'=>'false','orders'=>'','error'=>$validator->errors()->toArray()], 422,[], JSON_UNESCAPED_UNICODE);
+        }
+        $order = order::where('id_police',$request->search)->first();
+        return response()->json(['order'=>$order]);
     }
 }
