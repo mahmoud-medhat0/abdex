@@ -567,14 +567,34 @@ class orders extends Controller
     public function searchpolice(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'uid' =>['required',new validuid(),
-            'search' =>['required']
-            ]
+            'uid' => ['required', new validuid()],
+            'search' => ['required']
         ]);
-        if ($validator->fails()) {
-            return response()->json(['success'=>'false','orders'=>'','error'=>$validator->errors()->toArray()], 422,[], JSON_UNESCAPED_UNICODE);
+
+        if ($request->search == '') {
+            return response()->json(['success' => 'false', 'orders' => '', 'error' => 'رقم البوليصة لا يجب ان يكون فارغ'], 422, [], JSON_UNESCAPED_UNICODE);
         }
-        $order = order::where('id_police',$request->search)->first();
-        return response()->json(['order'=>$order]);
-    }
+
+        if ($validator->fails()) {
+            return response()->json(['success' => 'false', 'orders' => '', 'error' => $validator->errors()->toArray()], 422, [], JSON_UNESCAPED_UNICODE);
+        }
+
+        switch (auth()->user()->rank_id) {
+            case '9':
+                $order = Order::where('id_police', 'LIKE', "%" . $request->search . "%")->where('delegate_id', auth()->user()->id)->first();
+                break;
+            case '7':
+                $order = Order::where('id_police', 'LIKE', "%" . $request->search . "%")->where('id_company', Auth::user()->company_id)->first();
+                break;
+            default:
+                $order = null;
+                break;
+        }
+
+        if ($order == null) {
+            $order = 'none';
+        }
+
+        return response()->json(['order' => $order]);
+            }
 }
