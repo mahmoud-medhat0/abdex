@@ -15,367 +15,382 @@
     <title>{{ $title }}</title>
     <style>
         * {
-            padding: 0;
             margin: 0;
-            box-sizing: border-box;
+            padding: 0;
         }
 
         body {
-            font-family: sans-serif;
+            min-height: 100vh;
             display: flex;
             justify-content: center;
-            align-items: center;
+            margin-top: 0px;
         }
 
-        .a4-size {
+        .main-con {
             width: 21cm;
-            padding: 0 10px;
+            padding: 0px;
+            margin-top: 2px;
+            display: block;
         }
 
-        img.logo {
-            margin-bottom: -10px;
-        }
-
-        .one {
+        .table {
+            --bs-table-color: var(--bs-body-color);
+            --bs-table-bg: transparent;
+            --bs-table-border-color: var(--bs-border-color);
+            --bs-table-accent-bg: transparent;
+            --bs-table-striped-color: var(--bs-body-color);
+            --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+            --bs-table-active-color: var(--bs-body-color);
+            --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+            --bs-table-hover-color: var(--bs-body-color);
+            --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
             width: 100%;
+            margin-bottom: 1rem;
+            color: var(--bs-table-color);
+            vertical-align: top;
+            border-color: var(--bs-table-border-color)
+        }
+
+        .main-con td {
+            background-color: white;
+        }
+
+        .row {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
             display: flex;
-            justify-content: space-between;
-            gap: 10px;
-            position: relative;
+            flex-wrap: wrap;
+            margin-top: calc(-1 * var(--bs-gutter-y));
+            margin-right: calc(-.5 * var(--bs-gutter-x));
+            margin-left: calc(-.5 * var(--bs-gutter-x))
         }
 
-        .flex {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .one {
-            position: relative;
-        }
-
-        .one table {
+        .row>* {
+            flex-shrink: 0;
             width: 100%;
-            height: 61px;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x) * .5);
+            padding-left: calc(var(--bs-gutter-x) * .5);
+            margin-top: var(--bs-gutter-y)
+        }
+
+        .col-6 {
+            flex: 0 0 auto;
+            width: 50%
+        }
+
+        .main-con .police {
+            direction: rtl;
+            padding: 0;
+        }
+
+        .main-con .police table {
+            margin: 5px 4px;
+        }
+
+        .main-con .police td {
             border: 1px solid black;
-            border-spacing: 0;
-            margin-top: 33px;
         }
 
-        .one table tr td {
-            font-size: 13px;
-
+        .address {
+            width: 80%;
+            height: 100px;
+            border: 2px solid black;
+            padding: 5px 5px;
         }
 
-        .one .bar3 {
-            width: 100%;
+        .address span {
+            width: 280px;
+            display: block;
+        }
+
+        .address span:nth-child(1) {
+            height: 70%;
+        }
+
+        .address h1 {
+            font-size: 16px;
+            display: inline;
+        }
+
+        .address p {
+            display: inline;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .qr1 {
+            width: 20%;
+            border: 2px solid black;
+        }
+
+        .qr1 div {
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .one .bar3 img {
-            width: 85%;
-            height: 61px;
-        }
-
-        .one .bar4 {
-            height: 110px;
-            top: -50px;
-            right: 0;
-            position: absolute;
-        }
-
-        .one .bar4 img {
-            height: 60%;
-        }
-
-        .one .bar4 p {
-            font-weight: 600;
-            margin-top: 5px;
-            font-size: 12px;
-        }
-
-        .one table thead tr td {
-            background-color: rgb(175, 175, 175);
-            padding: 7px;
-            border-top: 1px solid black;
-            border-bottom: 1px solid black;
-            font-size: 20px;
-        }
-
-        .one table thead tr td:nth-child(1),
-        .one table thead tr td:nth-child(3) {
-            border-right: 1px solid black;
-            border-left: 1px solid black;
-        }
-
-        .one table tbody tr td {
-            padding: 7px;
-            background-color: white;
-            font-size: 20px;
-        }
-
-        .one table tbody tr td:nth-child(1),
-        .one table tbody tr td:nth-child(3) {
-            border-right: 1px solid black;
-            border-left: 1px solid black;
-        }
-
-        .table-1 {
-            width: 100%;
-            /*position: relative;*/
-            height: 10%;
-        }
-
-        .table-1>h1 {
-            position: absolute;
-            top: -50px;
-        }
-
-        .content-1 {
-            background-color: white;
-            width: 100%;
-            border: 2px solid black;
-            border-collapse: collapse;
-        }
-
-        .content-1 td {
+        .qr1 h1 {
+            font-size: 16px;
             text-align: center;
-            border-left: 2px solid black;
-            height: 50px;
+            font-weight: 700;
+            margin-top: -5px;
         }
 
-        .content-1 .title-1 {
-            background-color: rgb(175, 175, 175);
+        .police-num {
+            height: 35px;
+        }
+
+        .police-num td {
+            padding: 1 5px;
+        }
+
+        .police-num td h1 {
+            font-size: 17px;
+            width: 100%;
             text-align: center;
-            border: 2px solid black;
-            width: 100%;
-        }
-
-        .content-1 .title-1 td {
-            font-size: 14px;
-            width: 100%;
-            border: 2px solid black;
-            height: 20px;
-        }
-
-        .content-1 .title-1 td h2 {
-            font-size: 14px;
-            display: inline;
-            margin: 5px;
+            margin: 0;
             font-weight: 900;
         }
 
-        .content-1 .input-1 td {
-            font-size: 25px;
-        }
-
-        .content-1 .title-1 td:nth-child(1) {
-            width: 30%;
-        }
-
-        .content-1 .title-1 td:nth-child(2) {
-            width: 30%;
-        }
-
-        .content-1 .title-1 td:nth-child(3) {
-            width: 30%;
-        }
-
-        .table-1 .title-1 td:nth-child(4) {
-            width: 15%;
-        }
-
-        .content-1 tbody tr {
-            height: 80px;
-        }
-
-        .info {
+        .police-num td.logo div {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
-            gap: 20px;
+        }
+
+        .police-num td.logo img {
+            margin: 0 7px;
+        }
+
+        .cust-name td {
+            font-size: 14px;
+            font-weight: 700;
+            padding: 2px;
+            text-align: center;
+            height: 25px;
+        }
+
+        .cust-name-input td {
+            font-size: 14px;
+            font-weight: 700;
+            padding: 2px;
+            text-align: center;
+            height: 25px;
+        }
+
+        .cust-name-input td:nth-child(1) {
+            width: 196px;
+        }
+
+        .numbers td {
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+            height: 25px;
+        }
+
+        .numbers-input td {
+            height: 30px;
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .instru td,
+        .instru-input td {
+            font-size: 13px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .instru td {
+            height: 25px;
+        }
+
+        .instru-input td {
+            height: 25px;
+            min-height: 100px;
+            word-wrap: break-word;
+        }
+
+        .instru-input td:nth-child(1) {
+            width: 199px;
+        }
+
+        .instru-input td:nth-child(2) {
+            width: 188.5px;
+        }
+
+        .barcode td {
+            text-align: center;
+            height: 40px;
             padding: 5px;
         }
 
-        .inf-img {
-            width: 140px;
+        .barcode td h1 {
+            font-size: 16px;
+            font-weight: 800;
+            margin: 0;
         }
 
-        .icons {
-            display: flex;
-            gap: 30px;
-            justify-content: center;
-        }
-
-        .info p {
-            font-size: 22px;
+        .comments td:nth-child(1) {
+            font-size: 13px;
+            font-weight: 700;
             text-align: center;
-            line-height: 1.6;
-            font-weight: bold;
+            height: 25px;
         }
 
-        .icons img {
-            width: 30px;
-        }
-
-        .bar1 {
-            padding: 0 0.5px;
-        }
-
-        .bar1 img {
-            width: 90%;
-            height: -webkit-fill-available;
-            padding: 45px 0;
-            z-index: -1;
-        }
-
-        .c td:nth-child(1) {
-            width: 385px;
-        }
-
-        .c td:nth-child() {
-            width: 220px;
-        }
-
-        .content-1 .title td {
+        .comments td div {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
-            font-weight: 300;
         }
 
-        .one table tbody tr td {
-            font-weight: bold !important;
+        .comments td div img {
+            margin: 1px;
         }
 
-        .one table thead tr td {
-            font-weight: bold !important;
+        .comments-input td {
+            height: 60px;
+            width: 287px;
+            word-wrap: break-word;
+            padding: 5px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+        }
+
+        .connect td {
+            font-size: 13px;
+            height: 25px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .connect-2 td {
+            font-size: 13px;
+            height: 25px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .main-con .police table {
+            border-spacing: 0px;
+            border: 1px solid;
         }
     </style>
 </head>
 
 <body>
-    <div class="a4-size">
+    <section class="main-con row">
         @foreach ($orders as $order)
-            <div class="table-1" style="padding-top: 5px;">
-                <img class="logo" style="margin-bottom:-42px; height:30px;" src="{{ asset('police/img/logo1.png') }}" />
-                <img style="width:40px; margin-left:730px; margin-bottom: 0; margin-top: 4px; "
-                    src="data:image/png;base64,{{ base64_encode(QrCode::format('png')->size(60)->generate($order->id_police)) }}" />
-
-                <div class="one">
-                    <table style="width:50%; border-bottom: none; margin-top:20px;">
-                        <thead>
-                            <tr>
-                                <td style="font-size:13px; font-weight:bold; text-align:center; padding:0 50px;">فارغ
-                                </td>
-                                <td style="font-size:13px; font-weight:bold; text-align:center; padding:0 50px;">الوزن
-                                    Weight</td>
-                                <td style="font-size:13px; font-weight:bold; text-align:center; padding:0 50px;">التاريخ
-                                    Date</td>
-                                <td style="font-size:13px; font-weight:bold; text-align:center; padding:0 250px;">رقم
-                                    البوليصة </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td style="font-size:13px; font-weight:bold; text-align:center;"></td>
-                                <td style="font-size:13px; font-weight:bold; text-align:center;">{{ $order->weghit }}
-                                </td>
-                                <td style="font-size:13px; font-weight:bold; text-align:center;">Date
-                                    {{ $order->date }}</td>
-                                <td style="font-size:13px; font-weight:bold; text-align:center;">{{ $order->id_police }}
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <table class="content-1" style="direction: rtl;">
-                    <tr class="title-1">
-                        <td style="font-size: 10px;" >
-                            <h2>الراسل sender</h2>
-                        </td>
-                        <td style="font-size: 10px;">
-                            <h2>المحتويات contents</h2>
-                        </td>
-                        <td style="font-size: 10px;">
-                            <h2>إسم العميل client name</h2>
-                        </td>
-                        <td style="font-size: 10px;">
-                            <h2>الإجمالى total</h2>
-                        </td>
-
-                    </tr>
-                    <tr class="input-1">
-                        <td style="font-size: 13px;">{{ $order->sender }}</td>
-                        <td style="font-size: 13px;">{{ $order->name_product }}</td>
-                        <td style="font-size: 13px;">{{ $order->name_client }}</td>
-                        <td style="font-size: 13px;">{{ $order->cost }}</td>
-                    </tr>
-                    <tr class="title-1">
-                        <td style="font-size: 12px;" colspan="2">
-                            <h2 style="font-size: 14px;">ملاحظات notes</h2>
-                        </td>
-                        <td style="font-size: 12px;" style="width: 35%">
-                            <h2 style="font-size: 14px;">العنوان address</h2>
-                        </td>
-                        <td style="font-size: 9px;">
-                            <h2>معلوماتنا information</h2>
-                        </td>
-                    </tr>
-                    <tr class="input-1" style="height: 10px;">
-
-                        <!--<td></td>-->
-                    </tr>
-                    <tr class="input-1" style="height: 10px; border-bottom: 1px solid black;">
-                        <td colspan="2">
-                            <p style="text-align: left; padding-left: 10px; font-size: 10px;">{{ $order->notes }}</p>
-                        </td>
-                        <td style="text-align:center; font-size: 10px;">{{ $order->address }}</td> 
-                        <td rowspan="10" style="position: relative; padding:10px 0; border-bottom: 2px solid black;">
-                            <div class="info">
-                                <div class="inf-img">
-                                <img style="max-width: 65%; height: 30px;" src="data:image/png;base64,{{ base64_encode(QrCode::format('png')->size(60)->generate('https://www.facebook.com/SPEA1R')) }}" />
-                                </div>
-                                <div class="icons">
-                                    <img style="width:20px;"
-                                        src="{{ asset('police/img/png-transparent-iphone-telephone-call-computer-icons-call-volume-call-electronics-text-hand.png') }}" />
-
-                                    <img style="width:20px;"
-                                        src="{{ asset('police/img/png-clipart-whatsapp-whatsapp.png') }}" />
-                                    <img style="width:20px;" src="{{ asset('police/img/20673.png') }}" />
-                                </div>
-                                <h1 style="font-size:12px; margin:5px 0;">010070465157</h1>
-                                <h1 style="font-size:12px;">01129033543</h1>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr class="title-1">
-                        <td style="font-size: 12px;" colspan="2">
-                            <h2 style="font-size: 14px;">باركود بوليصة الشحن numbers</h2>
-                        </td>
-                        <td style="font-size: 12px;" style="width: 35%">
-                            <h2 style="font-size: 14px;">أرقام الهواتف numbers</h2>
-                        </td>
-                    </tr>
-                    <tr class="input-1">
-                        <td colspan="2">
-                            @php
-                                $barcode = $generator->getBarcode($order->id_police, $generator::TYPE_CODE_128);
-                            @endphp
-                            <img style="max-width: 100%; height: 30px;"
-                                src="data:image/png;base64,{{ base64_encode($barcode) }}" />
-                        <td style="padding:0 20px; font-size: 14px;">{{ $order->phone . '-' . $order->phone2 }}</td>
-                    </tr>
-                    <!--<tr class="input-1">-->
-                    <!--  <td colspan="2"><p style="font-size: 32px">spear-1305</p></td>-->
-                    <!--  <td>k</td>-->
-                    </tr>
-                </table>
-            </div>
+        <div class="col-6 police">
+            <table>
+                <tr>
+                    <td colspan="2" class="address">
+                        <span>
+                            <h1>العنوان :</h1>
+                            <p>{{ $order->address }}</p>
+                        </span>
+                        <span>
+                            <h1>المحافظه :</h1>
+                            <p>القاهره</p>
+                        </span>
+                        <span>
+                            <h1>المنطقه :</h1>
+                            <p>دار السلام</p>
+                        </span>
+                    </td>
+                    <td class="qr1">
+                        <div>
+                            <img src="data:image/png;base64,{{ base64_encode(QrCode::format('png')->size(60)->generate($order->id_police)) }}" width="80px">
+                        </div>
+                        <h1>{{ $order->id_police }}</h1>
+                    </td>
+                </tr>
+                <tr class="police-num">
+                    <td colspan="2">
+                        <h1>{{ $order->id_police }}</h1>
+                    </td>
+                    <td class="logo">
+                        <div>
+                            <img src="{{ asset('police/images/logo.png') }}" height="17px">
+                        </div>
+                    </td>
+                </tr>
+                <!-- main table -->
+                <tr class="cust-name">
+                    <td>اسم العميل</td>
+                    <td>السعر</td>
+                    <td>الراسل</td>
+                </tr>
+                <tr class="cust-name-input">
+                    <td>{{ $order->name_client }}</td>
+                    <!-- customer name input -->
+                    <td>{{ $order->cost }}</td>
+                    <!-- price input -->
+                    <td>{{ $order->sender }}</td>
+                    <!-- sender input -->
+                </tr>
+                <tr class="numbers">
+                    <td>رقم الهاتف</td>
+                    <td colspan="2">رقم الواتس</td>
+                </tr>
+                <tr class="numbers-input">
+                    <td>{{ $order->phone}}</td>
+                    <!--  first number input -->
+                    <td colspan="2">{{ $order->phone2 }}</td>
+                    <!--  Whatsapp number input -->
+                </tr>
+                <tr class="instru">
+                    <td>التعليمات</td>
+                    <td colspan="2">اسم المنتج</td>
+                </tr>
+                <tr class="instru-input">
+                    <td>{{ $order->special_intructions2 }}</td>
+                    <!--  instrucions input -->
+                    <td colspan="2">{{ $order->name_product }}</td>
+                    <!--  product name input -->
+                </tr>
+                <tr class="barcode">
+                    <td colspan="3">
+                        @php
+                            $barcode = $generator->getBarcode($order->id_police, $generator::TYPE_CODE_128);
+                        @endphp
+                        <img src="data:image/png;base64,{{ base64_encode($barcode) }}" width="170px" height="25px">
+                        <!-- barcode input -->
+                        <h1>{{ $order->id_police }}</h1>
+                    </td>
+                </tr>
+                <tr class="comments">
+                    <td colspan="2">ملاحظات - comments</td>
+                    <td rowspan="4">
+                        <img src="data:image/png;base64,{{ base64_encode(QrCode::format('png')->size(60)->generate('https://www.facebook.com/profile.php?id=61551884698382')) }}" width="80px" style="display: block;">
+                        <div>
+                            <img src="{{ asset('police/images/facebook.png') }}" width="20px">
+                            <img src="{{ asset('police/images/global.png') }}" width="16px">
+                            <img src="{{ asset('police/images/whatsapp.png') }}" width="25px">
+                        </div>
+                        <div>
+                            <img src="{{ asset('police/images/logo.png') }}" height="17px">
+                        </div>
+                    </td>
+                </tr>
+                <tr class="comments-input">
+                    <td colspan="2">{{ $order->notes }}</td>
+                    <!-- comments input -->
+                </tr>
+                <tr class="connect">
+                    <td colspan="2">ارقام التواصل - Connect with us</td>
+                </tr>
+                <tr class="connect-2">
+                    <td colspan="2">01111828807 - 01507677656 - 01551407492</td>
+                </tr>
+            </table>
+        </div>
         @endforeach
-    </div>
+    </section>
 </body>
 
 </html>
